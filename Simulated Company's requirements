@@ -1,0 +1,28 @@
+Cruncher is an analytics organization that analyzes popular online gaming platforms to provide their users with insights on 
+how to achieve better performance in their gameplay. Cruncher is currently working on an online platform Mobalysis that collects statics 
+from the popular MOBA game League of Legends. Cruncher is currently facing the following issues on its Mobalysis platform: 
+Roll out of bug fixes and changes to the live platform is currently a manual process and takes too long 
+		
+Roll out of changes to the live platform is error prone. 
+		
+Platform outages take too long to recover from 
+		
+The site frequently goes down whenever there’s a surge in user traffic 
+		
+We currently only find out there’s a problem with the site when we receive complaints through the customer care department 
+	 
+The problems cited above are leading to attrition of Cruncher’s user base and as such affecting the business performance. 
+
+Cruncher would like to set up an IT operations team to improve the operation of the platform. 
+To address the above issues the IT operations team in collaboration with the Development teams will be required to: 
+
+Review the current deployment architecture and provide recommendations for suitable deployment architectures moving forward. 
+	
+Set up a production and beta deployment environment as per the architectures identified in the previous step. 
+	
+Automate deployment of the application to both the production and beta environments 
+	
+Work with the development team to determine and capture and monitor key application performance metrics 
+		
+Work with the development team to ensure that the key application components and supporting services are monitored. 
+	
