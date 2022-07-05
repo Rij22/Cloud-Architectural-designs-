@@ -1,0 +1,588 @@
+{
+	"AWSTemplateFormatVersion": "2010-09-09",
+	"Metadata": {
+		"AWS::CloudFormation::Designer": {
+			"37ff5a27-2ab6-4fb2-9921-c09a7eaade80": {
+				"size": {
+					"width": 500,
+					"height": 560
+				},
+				"position": {
+					"x": 640,
+					"y": -470
+				},
+				"z": 0,
+				"embeds": [
+					"b402d76d-cdb5-4bde-add2-ff23bfe8027e",
+					"6920d2ba-6289-4771-ba08-2e34a100c273",
+					"45eaee35-c2ed-44ea-add4-3d0ca2671ef8",
+					"48d223cf-a115-4442-ac49-2bd1dea535a4",
+					"a5a42ea9-410d-48c5-a194-7863a5921f80",
+					"6b5c163f-07dd-415c-83bd-2de376f582a9",
+					"7674e610-86d5-4354-9c89-1bed7db387cc",
+					"675eb642-5966-434d-bf56-e280e7f8ac27"
+				]
+			},
+			"7674e610-86d5-4354-9c89-1bed7db387cc": {
+				"size": {
+					"width": 130,
+					"height": 110
+				},
+				"position": {
+					"x": 660,
+					"y": -420
+				},
+				"z": 1,
+				"parent": "37ff5a27-2ab6-4fb2-9921-c09a7eaade80",
+				"embeds": ["9022843b-5542-45b8-b456-21df289a4a4b"],
+				"dependson": ["48d223cf-a115-4442-ac49-2bd1dea535a4"]
+			},
+			"6b5c163f-07dd-415c-83bd-2de376f582a9": {
+				"size": {
+					"width": 140,
+					"height": 100
+				},
+				"position": {
+					"x": 660,
+					"y": -42
+				},
+				"z": 1,
+				"parent": "37ff5a27-2ab6-4fb2-9921-c09a7eaade80",
+				"embeds": ["d7cf43f9-5a2e-4424-8de6-a599f58b25ad"]
+			},
+			"a5a42ea9-410d-48c5-a194-7863a5921f80": {
+				"size": {
+					"width": 130,
+					"height": 150
+				},
+				"position": {
+					"x": 1000,
+					"y": -247
+				},
+				"z": 1,
+				"parent": "37ff5a27-2ab6-4fb2-9921-c09a7eaade80",
+				"embeds": ["fb7960cf-6ffb-4c5d-934f-2717bc012b92"]
+			},
+			"b402d76d-cdb5-4bde-add2-ff23bfe8027e": {
+				"size": {
+					"width": 130,
+					"height": 140
+				},
+				"position": {
+					"x": 660,
+					"y": -240
+				},
+				"z": 1,
+				"parent": "37ff5a27-2ab6-4fb2-9921-c09a7eaade80",
+				"embeds": ["2c744996-122e-4ce6-92cb-ebcaf7bd56ad"]
+			},
+			"2c744996-122e-4ce6-92cb-ebcaf7bd56ad": {
+				"size": {
+					"width": 60,
+					"height": 60
+				},
+				"position": {
+					"x": 708.0475950127943,
+					"y": -197.28499901061832
+				},
+				"z": 2,
+				"parent": "b402d76d-cdb5-4bde-add2-ff23bfe8027e",
+				"embeds": [],
+				"iscontainedinside": [
+					"b402d76d-cdb5-4bde-add2-ff23bfe8027e",
+					"b402d76d-cdb5-4bde-add2-ff23bfe8027e",
+					"b402d76d-cdb5-4bde-add2-ff23bfe8027e",
+					"b402d76d-cdb5-4bde-add2-ff23bfe8027e",
+					"b402d76d-cdb5-4bde-add2-ff23bfe8027e",
+					"b402d76d-cdb5-4bde-add2-ff23bfe8027e",
+					"b402d76d-cdb5-4bde-add2-ff23bfe8027e",
+					"b402d76d-cdb5-4bde-add2-ff23bfe8027e",
+					"b402d76d-cdb5-4bde-add2-ff23bfe8027e",
+					"b402d76d-cdb5-4bde-add2-ff23bfe8027e",
+					"b402d76d-cdb5-4bde-add2-ff23bfe8027e",
+					"b402d76d-cdb5-4bde-add2-ff23bfe8027e",
+					"b402d76d-cdb5-4bde-add2-ff23bfe8027e",
+					"b402d76d-cdb5-4bde-add2-ff23bfe8027e"
+				]
+			},
+			"fb7960cf-6ffb-4c5d-934f-2717bc012b92": {
+				"size": {
+					"width": 60,
+					"height": 60
+				},
+				"position": {
+					"x": 1035.4864962373035,
+					"y": -203.9094854515766
+				},
+				"z": 2,
+				"parent": "a5a42ea9-410d-48c5-a194-7863a5921f80",
+				"embeds": []
+			},
+			"d7cf43f9-5a2e-4424-8de6-a599f58b25ad": {
+				"size": {
+					"width": 60,
+					"height": 60
+				},
+				"position": {
+					"x": 690.0668461016218,
+					"y": -12.745733869637604
+				},
+				"z": 2,
+				"parent": "6b5c163f-07dd-415c-83bd-2de376f582a9",
+				"embeds": [],
+				"iscontainedinside": [
+					"6b5c163f-07dd-415c-83bd-2de376f582a9",
+					"6b5c163f-07dd-415c-83bd-2de376f582a9",
+					"6b5c163f-07dd-415c-83bd-2de376f582a9",
+					"6b5c163f-07dd-415c-83bd-2de376f582a9",
+					"6b5c163f-07dd-415c-83bd-2de376f582a9",
+					"6b5c163f-07dd-415c-83bd-2de376f582a9",
+					"6b5c163f-07dd-415c-83bd-2de376f582a9",
+					"6b5c163f-07dd-415c-83bd-2de376f582a9",
+					"6b5c163f-07dd-415c-83bd-2de376f582a9",
+					"6b5c163f-07dd-415c-83bd-2de376f582a9",
+					"6b5c163f-07dd-415c-83bd-2de376f582a9",
+					"6b5c163f-07dd-415c-83bd-2de376f582a9"
+				],
+				"dependson": ["2c744996-122e-4ce6-92cb-ebcaf7bd56ad"]
+			},
+			"9022843b-5542-45b8-b456-21df289a4a4b": {
+				"size": {
+					"width": 60,
+					"height": 60
+				},
+				"position": {
+					"x": 691.4635339333528,
+					"y": -387.77852649142756
+				},
+				"z": 2,
+				"parent": "7674e610-86d5-4354-9c89-1bed7db387cc",
+				"embeds": [],
+				"iscontainedinside": [
+					"7674e610-86d5-4354-9c89-1bed7db387cc",
+					"7674e610-86d5-4354-9c89-1bed7db387cc",
+					"7674e610-86d5-4354-9c89-1bed7db387cc",
+					"7674e610-86d5-4354-9c89-1bed7db387cc",
+					"7674e610-86d5-4354-9c89-1bed7db387cc",
+					"7674e610-86d5-4354-9c89-1bed7db387cc",
+					"7674e610-86d5-4354-9c89-1bed7db387cc",
+					"7674e610-86d5-4354-9c89-1bed7db387cc",
+					"7674e610-86d5-4354-9c89-1bed7db387cc",
+					"7674e610-86d5-4354-9c89-1bed7db387cc",
+					"7674e610-86d5-4354-9c89-1bed7db387cc"
+				],
+				"dependson": ["2c744996-122e-4ce6-92cb-ebcaf7bd56ad"]
+			},
+			"48d223cf-a115-4442-ac49-2bd1dea535a4": {
+				"size": {
+					"width": 60,
+					"height": 60
+				},
+				"position": {
+					"x": 850,
+					"y": -400
+				},
+				"z": 1,
+				"parent": "37ff5a27-2ab6-4fb2-9921-c09a7eaade80",
+				"embeds": [],
+				"dependson": ["6920d2ba-6289-4771-ba08-2e34a100c273"]
+			},
+			"6920d2ba-6289-4771-ba08-2e34a100c273": {
+				"size": {
+					"width": 60,
+					"height": 60
+				},
+				"position": {
+					"x": 1010,
+					"y": -400
+				},
+				"z": 1,
+				"parent": "37ff5a27-2ab6-4fb2-9921-c09a7eaade80",
+				"embeds": [],
+				"dependson": ["541ef326-9f27-4f11-9814-a2a2e9f622f8"]
+			},
+			"675eb642-5966-434d-bf56-e280e7f8ac27": {
+				"size": {
+					"width": 60,
+					"height": 60
+				},
+				"position": {
+					"x": 1034.5925157538002,
+					"y": -21.6190281264565
+				},
+				"z": 1,
+				"parent": "37ff5a27-2ab6-4fb2-9921-c09a7eaade80",
+				"embeds": [],
+				"iscontainedinside": [
+					"37ff5a27-2ab6-4fb2-9921-c09a7eaade80",
+					"37ff5a27-2ab6-4fb2-9921-c09a7eaade80",
+					"37ff5a27-2ab6-4fb2-9921-c09a7eaade80",
+					"37ff5a27-2ab6-4fb2-9921-c09a7eaade80",
+					"37ff5a27-2ab6-4fb2-9921-c09a7eaade80",
+					"37ff5a27-2ab6-4fb2-9921-c09a7eaade80",
+					"37ff5a27-2ab6-4fb2-9921-c09a7eaade80",
+					"37ff5a27-2ab6-4fb2-9921-c09a7eaade80"
+				]
+			},
+			"541ef326-9f27-4f11-9814-a2a2e9f622f8": {
+				"size": {
+					"width": 60,
+					"height": 60
+				},
+				"position": {
+					"x": 470,
+					"y": -190
+				},
+				"z": 0,
+				"embeds": [],
+				"dependson": ["b402d76d-cdb5-4bde-add2-ff23bfe8027e"]
+			},
+			"9927de35-f673-46b8-bd15-8a975d3756d6": {
+				"size": {
+					"width": 60,
+					"height": 60
+				},
+				"position": {
+					"x": 1250,
+					"y": -190
+				},
+				"z": 0,
+				"embeds": [],
+				"dependson": ["fb7960cf-6ffb-4c5d-934f-2717bc012b92"]
+			},
+			"90430fd9-4672-410b-b107-760ea3a1c9df": {
+				"source": {
+					"id": "37ff5a27-2ab6-4fb2-9921-c09a7eaade80"
+				},
+				"target": {
+					"id": "541ef326-9f27-4f11-9814-a2a2e9f622f8"
+				},
+				"z": 0
+			},
+			"45eaee35-c2ed-44ea-add4-3d0ca2671ef8": {
+				"size": {
+					"width": 60,
+					"height": 60
+				},
+				"position": {
+					"x": 854.248753192433,
+					"y": -211.5553167602294
+				},
+				"z": 1,
+				"parent": "37ff5a27-2ab6-4fb2-9921-c09a7eaade80",
+				"embeds": [],
+				"dependson": [
+					"6920d2ba-6289-4771-ba08-2e34a100c273",
+					"fb7960cf-6ffb-4c5d-934f-2717bc012b92"
+				]
+			},
+			"a023bb36-376c-46b4-9638-8b694822574f": {
+				"size": {
+					"width": 60,
+					"height": 60
+				},
+				"position": {
+					"x": 1250,
+					"y": -400
+				},
+				"z": 0,
+				"embeds": [],
+				"dependson": ["37ff5a27-2ab6-4fb2-9921-c09a7eaade80"]
+			},
+			"dfce92f7-d4a8-40c8-944d-551a1f0c579c": {
+				"source": {
+					"id": "a023bb36-376c-46b4-9638-8b694822574f"
+				},
+				"target": {
+					"id": "37ff5a27-2ab6-4fb2-9921-c09a7eaade80"
+				},
+				"z": 3
+			}
+		}
+	},
+	"Resources": {
+		"VPC": {
+			"Type": "AWS::EC2::VPC",
+			"Properties": {},
+			"Metadata": {
+				"AWS::CloudFormation::Designer": {
+					"id": "37ff5a27-2ab6-4fb2-9921-c09a7eaade80"
+				}
+			}
+		},
+		"WebServer": {
+			"Type": "AWS::EC2::Subnet",
+			"Properties": {},
+			"Metadata": {
+				"AWS::CloudFormation::Designer": {
+					"id": "7674e610-86d5-4354-9c89-1bed7db387cc"
+				}
+			},
+			"DependsOn": ["CruncherELB"]
+		},
+		"AppServer": {
+			"Type": "AWS::EC2::Subnet",
+			"Properties": {},
+			"Metadata": {
+				"AWS::CloudFormation::Designer": {
+					"id": "6b5c163f-07dd-415c-83bd-2de376f582a9"
+				}
+			}
+		},
+		"DatabaseServer": {
+			"Type": "AWS::EC2::Subnet",
+			"Properties": {},
+			"Metadata": {
+				"AWS::CloudFormation::Designer": {
+					"id": "a5a42ea9-410d-48c5-a194-7863a5921f80"
+				}
+			}
+		},
+		"RouteTable": {
+			"Type": "AWS::EC2::RouteTable",
+			"Properties": {},
+			"Metadata": {
+				"AWS::CloudFormation::Designer": {
+					"id": "b402d76d-cdb5-4bde-add2-ff23bfe8027e"
+				}
+			}
+		},
+		"WebServerRoute": {
+			"Type": "AWS::EC2::Route",
+			"Properties": {
+				"RouteTableId": {
+					"Ref": "RouteTable"
+				}
+			},
+			"Metadata": {
+				"AWS::CloudFormation::Designer": {
+					"id": "2c744996-122e-4ce6-92cb-ebcaf7bd56ad"
+				}
+			}
+		},
+		"DynamoDB": {
+			"Type": "AWS::DynamoDB::Table",
+			"Properties": {},
+			"Metadata": {
+				"AWS::CloudFormation::Designer": {
+					"id": "fb7960cf-6ffb-4c5d-934f-2717bc012b92"
+				}
+			}
+		},
+		"AppInstance": {
+			"Type": "AWS::EC2::Instance",
+			"Properties": {
+				"NetworkInterfaces": [
+					{
+						"SubnetId": {
+							"Ref": "AppServer"
+						}
+					},
+					{
+						"SubnetId": {
+							"Ref": "AppServer"
+						}
+					},
+					{
+						"SubnetId": {
+							"Ref": "AppServer"
+						}
+					},
+					{
+						"SubnetId": {
+							"Ref": "AppServer"
+						}
+					},
+					{
+						"SubnetId": {
+							"Ref": "AppServer"
+						}
+					},
+					{
+						"SubnetId": {
+							"Ref": "AppServer"
+						}
+					},
+					{
+						"SubnetId": {
+							"Ref": "AppServer"
+						}
+					},
+					{
+						"SubnetId": {
+							"Ref": "AppServer"
+						}
+					},
+					{
+						"SubnetId": {
+							"Ref": "AppServer"
+						}
+					},
+					{
+						"SubnetId": {
+							"Ref": "AppServer"
+						}
+					},
+					{
+						"SubnetId": {
+							"Ref": "AppServer"
+						}
+					}
+				]
+			},
+			"Metadata": {
+				"AWS::CloudFormation::Designer": {
+					"id": "d7cf43f9-5a2e-4424-8de6-a599f58b25ad"
+				}
+			},
+			"DependsOn": ["WebServerRoute"]
+		},
+		"WebInstance": {
+			"Type": "AWS::EC2::Instance",
+			"Properties": {
+				"NetworkInterfaces": [
+					{
+						"SubnetId": {
+							"Ref": "WebServer"
+						}
+					},
+					{
+						"SubnetId": {
+							"Ref": "WebServer"
+						}
+					},
+					{
+						"SubnetId": {
+							"Ref": "WebServer"
+						}
+					},
+					{
+						"SubnetId": {
+							"Ref": "WebServer"
+						}
+					},
+					{
+						"SubnetId": {
+							"Ref": "WebServer"
+						}
+					},
+					{
+						"SubnetId": {
+							"Ref": "WebServer"
+						}
+					},
+					{
+						"SubnetId": {
+							"Ref": "WebServer"
+						}
+					},
+					{
+						"SubnetId": {
+							"Ref": "WebServer"
+						}
+					},
+					{
+						"SubnetId": {
+							"Ref": "WebServer"
+						}
+					}
+				]
+			},
+			"Metadata": {
+				"AWS::CloudFormation::Designer": {
+					"id": "9022843b-5542-45b8-b456-21df289a4a4b"
+				}
+			},
+			"DependsOn": ["WebServerRoute"]
+		},
+		"CruncherELB": {
+			"Type": "AWS::ElasticLoadBalancing::LoadBalancer",
+			"Properties": {},
+			"Metadata": {
+				"AWS::CloudFormation::Designer": {
+					"id": "48d223cf-a115-4442-ac49-2bd1dea535a4"
+				}
+			},
+			"DependsOn": ["CruncherWAF"]
+		},
+		"CruncherWAF": {
+			"Type": "AWS::WAFv2::IPSet",
+			"Properties": {},
+			"Metadata": {
+				"AWS::CloudFormation::Designer": {
+					"id": "6920d2ba-6289-4771-ba08-2e34a100c273"
+				}
+			},
+			"DependsOn": ["InternetGateway"]
+		},
+		"CruncherSG": {
+			"Type": "AWS::EC2::SecurityGroup",
+			"Properties": {
+				"VpcId": {
+					"Ref": "VPC"
+				}
+			},
+			"Metadata": {
+				"AWS::CloudFormation::Designer": {
+					"id": "675eb642-5966-434d-bf56-e280e7f8ac27"
+				}
+			}
+		},
+		"InternetGateway": {
+			"Type": "AWS::EC2::InternetGateway",
+			"Properties": {},
+			"Metadata": {
+				"AWS::CloudFormation::Designer": {
+					"id": "541ef326-9f27-4f11-9814-a2a2e9f622f8"
+				}
+			},
+			"DependsOn": ["RouteTable"]
+		},
+		"S3BucketJSONBackupData": {
+			"Type": "AWS::S3::Bucket",
+			"Properties": {},
+			"Metadata": {
+				"AWS::CloudFormation::Designer": {
+					"id": "9927de35-f673-46b8-bd15-8a975d3756d6"
+				}
+			},
+			"DependsOn": ["DynamoDB"]
+		},
+		"EC2VPCG3U7QL": {
+			"Type": "AWS::EC2::VPCGatewayAttachment",
+			"Properties": {
+				"VpcId": {
+					"Ref": "VPC"
+				},
+				"InternetGatewayId": {
+					"Ref": "InternetGateway"
+				}
+			},
+			"Metadata": {
+				"AWS::CloudFormation::Designer": {
+					"id": "90430fd9-4672-410b-b107-760ea3a1c9df"
+				}
+			}
+		},
+		"DatabaseELB": {
+			"Type": "AWS::ElasticLoadBalancing::LoadBalancer",
+			"Properties": {},
+			"Metadata": {
+				"AWS::CloudFormation::Designer": {
+					"id": "45eaee35-c2ed-44ea-add4-3d0ca2671ef8"
+				}
+			},
+			"DependsOn": ["CruncherWAF", "DynamoDB"]
+		},
+		"CodePipeline": {
+			"Type": "AWS::CodePipeline::Pipeline",
+			"Properties": {},
+			"Metadata": {
+				"AWS::CloudFormation::Designer": {
+					"id": "a023bb36-376c-46b4-9638-8b694822574f"
+				}
+			},
+			"DependsOn": ["VPC"]
+		}
+	}
+}
