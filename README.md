@@ -1,5 +1,5 @@
 # Project_101
-This repo contains an AWS architectural design of Project_101 i have worked on.
+This repo contains an AWS architectural design of Project_101 i have worked on. The project is named CRUNCHER. All references of Cruncher is related to this project.
 
 The diagram here shows a three tier Architecture of Chuncher’s Mobalysis platform. With require, a completely new solution that automates bug fixes and updates of the platform.
 They needed a solution which reduces the RTO time when there is down time to improve reliability and highly available solution that can withstand traffic surges and finally they needed a metric that monitors their system which will allow them know exactly what is going on with resources of the application anytime there are changes.
