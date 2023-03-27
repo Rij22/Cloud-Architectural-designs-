@@ -1,0 +1,152 @@
+This project s called EVA.
+AWS Databases is one of the most important aspect of the cloud.
+A highly secured, reliable and highly resilient database server is crucial in builiding a solid structure for the database of any enterprise.
+Below are important steps in building/designing a robust, reliable, well secured, scalable, and highly available infracstructure. 
+
+Resource 1-----#### Creating a VPC 
+  VPC_ID.  = aws_vpc_eva.id
+  cidr_block = "10.10.0.0/16" #65536 hosts
+  enable_dns_support = true
+  enable_dns_hostnames= true
+  tag {
+    Name  = aws_vpc_eva
+  
+  
+Resource 2----#### Creating an Internet Gateway
+
+
+  The IGW is attached to the VPC 
+  gateway ID     = aws_igw_eva.id
+
+
+
+Resource 3----#### Creating 4 private subnets with 2 availability zones. Two in each.
+
+
+
+resource "aws_subnet" "PrivateSubnet1" 
+  vpc_id            = aws_vpc_eva.id
+  cidr_block        = "10.0.0.0/24"
+  availability_zone = [us-east-1a]
+  map_public_ip_on_launch = false
+  subet_id          = aws_PS1_eva_id 
+
+#Create Route Table for PrivateSubnet1
+resource "aws_route_table" "prv_sub1_rt" {
+  vpc_id = aws_vpc_eva.id
+  route {
+    cidr_block = "0.0.0.0/0"
+    gateway_id = aws_igw_eva.id
+    tags = {
+  
+    Name = "route_table_prv_sub1_rt" }
+
+# Create route table association of private subnet1
+resource "aws_route_table_association" "internet_for_prv_sub1" {
+  route_table_id = route_table_prv_sub1_rt
+  subnet_id      = aws_PS1_eva_id. }
+
+  
+
+
+
+resource "aws_subnet" "PrivateSubnet2" 
+  vpc_id            = aws_vpc_eva.id
+  cidr_block        = "10.0.1.0/24"
+  availability_zone = [us-east-1c]
+  map_public_ip_on_launch = false
+  
+#Create Route Table for PrivateSubnet2
+resource "aws_route_table" "prv_sub2_rt" {
+  vpc_id = aws_vpc_eva.id
+  route {
+    cidr_block = "0.0.0.0/0"
+    gateway_id = aws_igw_eva.id
+    tags = {
+  
+    Name = "route_table_PS2_rt" }
+    
+# Create route table association of private subnet2
+resource "aws_route_table_association" "internet_for_prv_sub1" {
+  route_table_id = route_table_prv_sub2_rt
+  subnet_id      = aws_PS2_eva_id. }
+  
+
+
+
+resource "aws_subnet" "PrivateSubnet3" 
+  vpc_id            = aws_vpc_eva.id
+  cidr_block        = "10.0.2.0/24"
+  availability_zone = [us-west-2c]
+  map_public_ip_on_launch = false
+  
+#Create Route Table for PrivateSubnet3
+resource "aws_route_table" "prv_sub3_rt" {
+  vpc_id = aws_vpc_eva.id
+  route {
+    cidr_block = "0.0.0.0/0"
+    gateway_id = aws_igw_eva.id
+    tags = {
+  
+    Name = "route_table_PS3_rt" }
+    
+# Create route table association of private subnet3
+resource "aws_route_table_association" "internet_for_prv_sub1" {
+  route_table_id = route_table_prv_sub3_rt
+  subnet_id      = aws_PS3_eva_id. }
+  
+  
+
+
+
+resource "aws_subnet" "PrivateSubnet4" 
+  vpc_id            = aws_vpc_eva.id
+  cidr_block        = "10.0.2.0/24"
+  availability_zone = [us-west-2a]
+  map_public_ip_on_launch = false
+  
+#Create Route Table for PrivateSubnet4
+resource "aws_route_table" "prv_sub4_rt" {
+  vpc_id = aws_vpc_eva.id
+  route {
+    cidr_block = "0.0.0.0/0"
+    gateway_id = aws_igw_eva.id
+    tags = {
+  
+    Name = "route_table_PS4_rt" }
+    
+# Create route table association of private subnet4
+resource "aws_route_table_association" "internet_for_prv_sub4" {
+  route_table_id = route_table_prv_sub4_rt
+  subnet_id      = aws_PS4_eva_id. }
+
+
+
+
+Resource 3----#### Creating 8 Database Servers/Instances  ## Two in each subnet of the 4 subnets.
+  allocated_storage = 10
+  max_allocated_storage = 500
+  storage_type = "gp2"
+  db_name = "rij_db"
+  engine = "mysql"
+  engine_version = "5.7"
+  instance_class = "db.t2.micro" (free tier)
+  username = "rijdataB"
+  password = "rr_px088k"
+  parameter_group_name = "default.mysql5.7"
+  publicly_accessible = true
+  backup_retention_period= 10
+  port = 3306
+  skip_final_snapshot = true #to allow avoid terraform destroy from facing error
+  
+  
+  Resource 4----#### Creating an Elastic Load Balancer
+  
+  
+  
+  
+  
+  
+  
+  
+  
